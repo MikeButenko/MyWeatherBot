@@ -1,6 +1,6 @@
 import requests
 
-token = 'b419d37ccd9921625998427345f82716'
+token = 'your token'
 
 def get_weather():
 	url = 'http://api.openweathermap.org/data/2.5/forecast?id=709930&APPID='+ token
