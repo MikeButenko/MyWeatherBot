@@ -1,8 +1,7 @@
-import telebot
-import mytoken
+import telebo
 from weather import get_weather
 
-token = mytoken.token
+token = 'your telegram token'
 
 bot = telebot.TeleBot(token)
 
